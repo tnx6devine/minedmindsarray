@@ -37,9 +37,16 @@ def test_fourth_position_in_array_is_minds
 	assert_equal("minds", mm_array[4])
 end
 
-def test_fourteenth_position_in_array_is_minds
+def test_fourteenth_position_in_array_is_mined_minds
 	mm_array = create_mm_array()
 	assert_equal("mined minds", mm_array[14])
 end
+
+def test_last_position_in_array_is_minds
+	mm_array = create_mm_array()
+	assert_equal("minds", mm_array.last)
+end
+
+p create_mm_array()
 
 end

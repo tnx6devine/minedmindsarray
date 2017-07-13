@@ -5,11 +5,11 @@ array1 = []
 counter = 0
 100.times do
 	counter = counter + 1	
-if counter == 15
+if counter % 15 == 0
 	array1 << "mined minds"
-elsif counter == 3
+elsif counter % 3 == 0
 	array1 << "mined"
-elsif counter == 5
+elsif counter % 5  == 0
 	array1 << "minds"
 else
  array1 << counter
